@@ -41,6 +41,6 @@ function funcao(){
         alert("A média de salarios é de: "+ mediasalario / 3 )
         alert("A média de filhos é de: "+ mediafilhos / 3 )
         alert("O Maior salario é: "+ maiorsalario)
-        alert("Percentual: "+ qtde/3*100);  
+        alert("Percentual Mulheres com Salario maior que 1000: "+ qtde/3*100);  
 }
 
