@@ -29,10 +29,10 @@ function funcao(){
         }
         
     }
-    var cont = 0
+    var qtde = 0;
     for(var i=0;i<3; i++){
-        if((vet[i].salario > 1000) && (vet.sexo[i] == "F")){
-            cont = cont + 1
+        if((vet[i].salario > 1000) && (vet[i].sexo == 'F')){
+            qtde++;
 
         }
     }
@@ -41,6 +41,6 @@ function funcao(){
         alert("A média de salarios é de: "+ mediasalario / 3 )
         alert("A média de filhos é de: "+ mediafilhos / 3 )
         alert("O Maior salario é: "+ maiorsalario)
-        alert("O Percentual de: "+ (cont / 3) * 100)   
+        alert("Percentual: "+ qtde/3*100);  
 }
 
